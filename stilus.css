@@ -1,0 +1,136 @@
+*{
+    /*padding: 0px;
+    margin: 0px;*/
+    box-sizing: border-box;
+    font-family: Arial, verdana, sans-serif,garamond;
+    color: beige;
+    /*font-size: 10pt;*/
+    
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "ar n"
+    "f f"
+    ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #333333;
+}
+
+header{
+    grid-area: h;
+    background-image: url(6aac4939-4610-4e5b-bb02-c48efe390257_1311443991.avif);
+    height: 300px;
+    background-size: cover;
+    font-family: garamond;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-left:30px ;
+    padding-top: 30px;
+}
+article{
+    grid-area: ar;
+}
+nav{
+    grid-area: n;
+
+}
+footer{
+    grid-area: f;
+
+}
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(teglafal.jpg);
+
+}
+h1{
+    color: black;
+}
+
+nav ol li{
+    list-style: none;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: left;
+}
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: lightgray;
+    color: white
+}
+/*
+a:active{
+    background-color: yellow;
+}
+
+a:link{
+    background-color: purple;
+}
+*/
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+
+}article p{
+    text-align: justify;
+    font-size: 10px;
+
+}
+
+article *{
+    font-size: 10px;
+}
+
+article h2{
+    font-size: 15px;
+}
+
+nav ol {
+    margin: 10px;
+}
+
+figure img{
+    width: 150px;
+    height: auto;
+    margin: 15px;
+    float: left;
+    padding: 5px;
+    border: solid 1px darkgray;
+    margin-top: 10px;
+}
+footer{
+    background-color: rgb(121, 118, 118);
+    color: grey;
+    text-align: center;
+}
+
+#felsorol li{
+    list-style-type: square;
+}
+
+#felsorol{
+    padding-left: 10px;
+}
+section{
+    background-color: black;
+}
