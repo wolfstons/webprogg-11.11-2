@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+ 
+main{
+    display: grid;
+    grid-template-areas:
+    'h h'
+    'ar n'
+    'f f'
+    ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #333333;
+ 
+}
+ 
+header{
+    grid-area: h;
+    background-image: url(design/beer-new_401732638.jpg);
+    background-size: cover;
+    height: 300px;
+    font-family: Garamond;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 32px;
+    letter-spacing: 4px;
+ 
+}
+ 
+article {
+    grid-area: ar;
+}
+ 
+nav {
+    grid-area: n;
+}
+ 
+footer {
+    grid-area: f;
+}
+ 
+body {
+    background-image: url(design/teglafal.jpg);
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    display: block;
+   
+}
+ 
+ 
+ 
+figure img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    float: left;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+}
+ 
+nav ol li {
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    border-color: grey;
+    padding: 10px;
+    width: auto;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+ 
+nav ol {
+    margin: 10px;
+}
+ 
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+   
+}
+ 
+a:hover {
+    background-color: rgba(211, 211, 211, 0.346);
+    color: white;
+}
+ 
+article p {
+    text-align: justify;
+    font-size: 10px;
+}
+ 
+article * {
+    font-size: 10px;
+}
+ 
+h2 {
+    font-size: 15px;
+ 
+}
+ 
+ul {
+    margin: 20px;
+   padding: 10px;
+}
+ 
+footer p {
+    background-color: grey;
+    text-align: center;
+    padding: 6px;
+   
+}
+ 
+#felsorol li {
+    list-style-type: square;
+ 
+   
+}
+ 
+#felsorol {
+    padding-left: 50px !important;
+}
+ 
+table tr:nth-child(odd) {
+    background-color: grey;
+}
+ 
+table{
+    text-align: center;
+    margin: 10px;
+    border: 1px solid grey;
+}
+ 
+h3{
+    font-size: 15px;
+    margin: 15px;
+}
+
+@media only screen  and (min-width: 700px) {
+    main{
+        display: block;
+        
+    }
+    
+}
